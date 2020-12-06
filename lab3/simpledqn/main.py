@@ -229,7 +229,7 @@ class DQN(object):
         # this is the same as the last excercise but we get are max of Q, then apply it to Qt
 
         q_forwarded = self._q.forward(l_next_obs)
-        qt_forwarded = self._qt.forward(l_next_obs) 
+        qt_forwarded = self._qt.forward(l_next_obs)
 
         a_q_forwarded = F.argmax(q_forwarded, axis=1)
         Q_dual = F.select_item(qt_forwarded, a_q_forwarded)
