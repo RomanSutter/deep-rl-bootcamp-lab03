@@ -23,5 +23,8 @@ Since it was not possible to get the implementation running on the current setup
 |Increasing the Fraction of Expl. Parameter epsilon (0.1 -> 0.2)|<img alt="Average Return Increased Epsilon" src="/graphs/Epsilon_Average_Return_Increasing.png" width="500">|<img alt="Average Discounted Return Increased Epsilon" src="/graphs/Epsilon_Average_Discounted_Return_Increasing.png" width="500">|<img alt="Average Error Increased Epsilon" src="/graphs/Epsilon_Average_Error_Increasing.png" width="500">|
 |Decreasing the Fraction of Expl. Parameter epsilon (0.1 -> 0.05)|<img alt="Average Return Decreased Epsilon" src="/graphs/Epsilon_Average_Return_Decreasing.png" width="500">|<img alt="Average Discounted Return Decreased Epsilon" src="/graphs/Epsilon_Average_Discounted_Return_Decreasing.png" width="500">|<img alt="Average Error Decreased Epsilon" src="/graphs/Epsilon_Average_Error_Decreasing.png" width="500">|
 ||||
-|Increasing the Update Frequncy (every 4 iters -> every 2 iters)|||
-|Decreasing the Update Frequncy (every 4 iters -> every 6 iters)|||
+|Increasing the Update Frequncy (every 4 iters -> every 2 iters)|<img alt="Average Return Increased Update Frequency" src="/graphs/Update_Frequency_Average_Return_Increasing.png" width="500">|<img alt="Average Discounted Return Increased Update Frequency" src="/graphs/Update_Frequency_Average_Discounted_Return_Increasing.png" width="500">|<img alt="Average Error Increased Update Frequency" src="/graphs/Update_Frequency_Average_Error_Increasing.png" width="500">|
+|Decreasing the Update Frequncy (every 4 iters -> every 6 iters)|<img alt="Average Return Decreased Update Frequency" src="/graphs/Update_Frequency_Average_Return_Decreasing.png" width="500">|<img alt="Average Discounted Return Decreased Update Frequency" src="/graphs/Update_Frequency_Average_Discounted_Return_Decreasing.png" width="500">|<img alt="Average Error Decreased Update Frequency" src="/graphs/Update_Frequency_Average_Error_Decreasing.png" width="500">|
+
+
+
