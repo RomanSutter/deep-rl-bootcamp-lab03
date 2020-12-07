@@ -15,6 +15,8 @@ Since it was not possible to get the implementation running on the current setup
 
 | | Average Return | Average Discounted Return | Average Error |
 |-|----------------|---------------------------|---------------|
+|Baseline of Pong|<img alt="Average Return" src="/graphs/Baseline_Average_Return.png" width="500">|<img alt="Average Discounted Return" src="/graphs/Baseline_Average_Discounted_Return.png" width="500">|<img alt="Average Error" src="/graphs/Baseline_Average_Error.png" width="500">|
+|||||
 |Increased Discount Factor gamma (0.99 -> 0.995)|<img alt="Average Return Increased Discount" src="/graphs/Discount_Factor_Average_Return_Increased.png" width="500">|<img alt="Average Discounted Return Increased Discount" src="/graphs/Discount_Factor_Average_Discounted_Return_Increased.png" width="500">|<img alt="Average Error Increased Discount" src="/graphs/Discount_Factor_Average_Error_Increased.png" width="500">|
 |Decreased Discount Factor gamme (0.99 -> 0.985)|<img alt="Average Return Decreased Discount" src="/graphs/Discount_Factor_Average_Return_Decreased.png" width="500">|<img alt="Average Discounted Return Decreased Discount" src="/graphs/Discount_Factor_Average_Discounted_Return_Decreased.png" width="500">|<img alt="Average Error Decreased Discount" src="/graphs/Discount_Factor_Average_Error_Decreased.png" width="500">|
 ||||
