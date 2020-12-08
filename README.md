@@ -28,3 +28,16 @@ Since it was not possible to get the implementation running on the current setup
 
 
 
+### Analysis
+
+#### Discount Factor
+The increased discount factor includes more conditions of the future and leads to better results at first. The learning over time however is not continuously improving and fluctuates a lot more. If the discount factors is decreased, the learning rate improves the learning rate and over a shorter amount of time but also starts at a reasonable level. Therefore a reduction of the discount factor can be applied to this model, since the problem does not need to consider as many steps in the future as implemented in the baseline.
+
+#### Fraction of the exploration parameter Epsilon
+Epsilon is being reduced from 1 to 0.05 over time during the learning. The Fraction parameter determines the speed at which this reduction is being done. If this fraction parameter is being chosen bigger, the initial learning rate is also faster but with a drawback of having more random decisions and therefore it is not as stable as the baseline. Lowering the Fraction parameter leads to a more stable learning curve, but it might take longer to improve (based on if the random decisions are helpful or not). For the problem of Pong, epsilon can be increased for faster results.
+
+#### Update Frequency of Q-Values
+The amount of iterations it takes until an update of the Q-Values is being done, is chosen by this parameter. The parameters are updated after a fixed set of iterations (default is 4 iterations). If the frequency is lower, the initial learning is obviously lower. After the initial slow curve, the results improve and are better than the baseline implementation. Increasing the update frequency is leading to worse results, since bad decisions might be taken in consideration more often. Therefore it is adviced to decrease the frequency at which the Q-Values are updated for the problem of Pong. 
+
+#### Final Conclusion
+The three analyzed hyperparameters that determine the learning process of this model can be optimized in comparison to the baseline that was given by the excercise. They improve the speed at which the model is being trained, but also the result in the end and have to be chosen carefully to get the best model.
